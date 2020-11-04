@@ -1,9 +1,11 @@
 import random
 
+print("This is a Dice Simulator!")
 x = "y"
 
 while x == "y":
 	number = random.randint(1,6)
+
 	if number == 1:
 		print("-----------")
 		print("|         |")
@@ -40,4 +42,4 @@ while x == "y":
 		print("|  O   O  |")
 		print("|  O   O  |")
 		print("-----------")
-	x = input("y or n ")
+	x = input("Press y to roll again, press n to stop the program. ")
