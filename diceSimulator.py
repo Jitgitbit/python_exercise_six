@@ -42,4 +42,5 @@ while x == "y":
 		print("|  O   O  |")
 		print("|  O   O  |")
 		print("-----------")
+		
 	x = input("Press y to roll again, press n to stop the program. ")
